@@ -23,7 +23,7 @@ body {
     padding:15px;
     background-color: #fff;
     box-shadow: 0px 4px 8px 0x rgba(0,0,0,0.2);
-    height: 520px;
+    min-height: 520px;
     border-radius: 5px;
     transition: 0.2s;
 }
@@ -57,7 +57,31 @@ body {
     font-weight: 600;
 }
 
-.flex-container .inner-container .skills, .flex-container .inner-container .contact-us {
+
+.sks span {
+    background: green;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom:3px;
+}
+
+.gen-header {
+    padding-top:14px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    margin-top:10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.flex-container .inner-container .skills, .flex-container .inner-container  {
     padding-top:14px;
     font-size: 16px;
     text-align: center;

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee- Card</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="flex-container">
+        <div class="inner-container">
+            <img src="images/professional.jpg" />
+            <h1><span class="details-info"></span></h1>
+            <h2>ABC company, USA</h2>
+            <p class="skills">
+                <strong>Skills: </strong>
+                HTML5, CSS3, JQuery, JavaScript, Bootstrap, WorPress, PHP
+            </p>
+            <p class="skills">
+                <strong>Company Campus: </strong>
+                003, Steve Road, San Fransico, CA, USA
+            </p>
+            <div class="contact-us">
+                <h2>Contact Section</h2>
+                <a href="javascript:(void)" class="fa-icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="javascript:(void)" class="fa-icon"><i class="fa-brands fa-staylinked"></i></a>
+                <a href="javascript:(void)" class="fa-icon"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="javascript:(void)" class="fa-icon"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="javascript:(void)" class="fa-icon"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="javascript:(void)" class="fa-icon"> <i class="fa-solid fa-paperclip"></i></a>
+            </div>
+            <button class="contactus"><i class="fa-regular fa-envelope"></i> Contact Now</button>
+        </div>
+    </div>
+
+<!-- Simple CDN Links -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed =  new Typed(".details-info", {
+        strings: ["PHP Developer", "Front End Developer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    });
+</script>
+</body>
+</html>

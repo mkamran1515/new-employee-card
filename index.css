@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color:thistle;
+}
+.flex-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-container .inner-container {
+    width: 400px;
+    margin:30px;
+    padding:15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0x rgba(0,0,0,0.2);
+    height: 520px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.inner-container:hover {
+    box-shadow: 0px 16px 32px 0x rgba(0,0,0,0.2);
+}
+
+.flex-container .inner-container img {
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin:0 auto;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.flex-container .inner-container img:hover {
+   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+   transform: scale(1.1,1.1);
+}
+.flex-container .inner-container h1 {
+    font-size: 24px;
+    text-align: center;
+    padding:10px;
+    font-weight: 600;
+}
+
+.flex-container .inner-container h2 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.flex-container .inner-container .skills, .flex-container .inner-container .contact-us {
+    padding-top:14px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    margin-top:10px;
+}
+.flex-container .inner-container .contact-us h2 {
+    text-align: center;
+    padding:4px;
+}
+.flex-container .inner-container .contact-us .fa-icon{
+  color: brown;
+  transition: all 0.2s;
+  font-size: 30px;
+  margin:5px;
+  border-radius: 10px;
+}
+.flex-container .inner-container .contact-us .fa-icon:hover{
+    color: green;
+}
+
+.contactus {
+    padding:6px 10px;
+    width: 250px;
+    background: #000;
+    display: block;
+    margin: 20px auto;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border:2px solid black;
+    transition: 0.2s;
+}
+.contactus:hover {
+    background-color: transparent;
+    color: #000;
+}
+.fa-regular {
+    font-size: 20px;
+    margin:0px 10px;
+}

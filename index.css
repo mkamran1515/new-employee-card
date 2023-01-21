@@ -80,6 +80,9 @@ body {
     margin-bottom: 10px;
     display: block;
 }
+* {
+    
+}
 
 .flex-container .inner-container .skills, .flex-container .inner-container  {
     padding-top:14px;
